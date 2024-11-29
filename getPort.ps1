@@ -1,0 +1,1 @@
+Get-NetTCPConnection | Where-Object { $_.LocalPort -eq 27017 } | Format-Table -Property LocalAddress,LocalPort,RemoteAddress,RemotePort,State,OwningProcess

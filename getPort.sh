@@ -1,0 +1,1 @@
+netstat -anop | grep 27017
